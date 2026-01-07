@@ -1,0 +1,118 @@
+{
+  "entity": "browsing_history",
+  "timestamp": "2025-06-26T16:20:08.595370",
+  "compare_with_source": [
+    "Missing columns in source_df: ['exercise', 'problem_type', 'problem_number', 'topic_mode', 'suggested', 'review_mode', 'time_done', 'time_taken', 'time_taken_attempts', 'correct', 'count_attempts', 'hint_used', 'count_hints', 'hint_time_taken_list', 'earned_proficiency', 'points_earned']",
+    "Missing columns in source_df: ['name', 'live', 'prerequisites', 'h_position', 'v_position', 'creation_date', 'seconds_per_fast_problem', 'pretty_display_name', 'short_display_name', 'topic', 'area', 'pretty_display_name_english', 'short_display_name_english']"
+  ],
+  "checks": [
+    {
+      "check": "clean_success_rate_title",
+      "result": {
+        "valid_count": 129630,
+        "total_checked": 129630,
+        "success_rate_%": 100.0,
+        "note": null
+      }
+    },
+    {
+      "check": "clean_success_rate_url",
+      "result": {
+        "valid_count": 129630,
+        "total_checked": 129630,
+        "success_rate_%": 100.0,
+        "note": null
+      }
+    },
+    {
+      "check": "clean_success_rate_timestamp",
+      "result": {
+        "valid_count": 129630,
+        "total_checked": 129630,
+        "success_rate_%": 100.0,
+        "note": null
+      }
+    },
+    {
+      "check": "clean_success_rate_pageview_count",
+      "result": {
+        "valid_count": 129630,
+        "total_checked": 129630,
+        "success_rate_%": 100.0,
+        "note": null
+      }
+    },
+    {
+      "check": "clean_success_rate_referrer_page",
+      "result": {
+        "valid_count": 129630,
+        "total_checked": 129630,
+        "success_rate_%": 100.0,
+        "note": null
+      }
+    },
+    {
+      "check": "clean_success_rate_tmp_keywords",
+      "result": {
+        "valid_count": 129630,
+        "total_checked": 129630,
+        "success_rate_%": 100.0,
+        "note": null
+      }
+    },
+    {
+      "check": "clean_success_rate_visible_content",
+      "result": {
+        "valid_count": 129630,
+        "total_checked": 129630,
+        "success_rate_%": 100.0,
+        "note": null
+      }
+    }
+  ],
+  "notes": [],
+  "null_check.user_id": 0,
+  "null_check.username": "missing",
+  "null_check.password": "missing",
+  "null_check.created_time": 0,
+  "null_check.preferred_content_type": "missing",
+  "null_check.entry_id": 0,
+  "null_check.pageview_count": 0,
+  "null_check.referrer_page": 0,
+  "null_check.search_keyword": 0,
+  "null_check.title": 0,
+  "null_check.url": 0,
+  "null_check.tmp_keywords": 0,
+  "null_check.timestamp": 0,
+  "format_check.entry_id.expected": "object",
+  "format_check.entry_id.actual": "object",
+  "format_check.entry_id.match": true,
+  "format_check.entry_id.note": null,
+  "format_check.timestamp.expected": "datetime64[ns]",
+  "format_check.timestamp.actual": "datetime64[ns]",
+  "format_check.timestamp.match": true,
+  "format_check.timestamp.note": null,
+  "format_check.pageview_count.expected": "Int64",
+  "format_check.pageview_count.actual": "int64",
+  "format_check.pageview_count.match": false,
+  "format_check.pageview_count.note": null,
+  "format_check.search_keyword.expected": "object",
+  "format_check.search_keyword.actual": "object",
+  "format_check.search_keyword.match": true,
+  "format_check.search_keyword.note": null,
+  "format_check.tmp_keywords.expected": "object",
+  "format_check.tmp_keywords.actual": "object",
+  "format_check.tmp_keywords.match": true,
+  "format_check.tmp_keywords.note": null,
+  "default_values_check.source_id": 0,
+  "default_values_check.is_update": 129630,
+  "default_values_check.is_delete": 129630,
+  "deduplication_check.status": "checked",
+  "deduplication_check.duplicate_rows": 0,
+  "deduplication_check.note": null,
+  "array_fields_check.search_keyword": 129630,
+  "array_fields_check.tmp_keywords": 0,
+  "volume_summary.num_rows": 129630,
+  "volume_summary.num_columns": 25,
+  "volume_summary.estimated_memory_MB": 140.06
+}

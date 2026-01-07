@@ -1,0 +1,15 @@
+[2024-10-01T11:12:20.186+0700] {processor.py:186} INFO - Started process (PID=83291) to work on /opt/anaconda3/envs/airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-10-01T11:12:20.187+0700] {processor.py:914} INFO - Processing file /opt/anaconda3/envs/airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py for tasks to queue
+[2024-10-01T11:12:20.187+0700] {logging_mixin.py:190} INFO - [2024-10-01T11:12:20.187+0700] {dagbag.py:588} INFO - Filling up the DagBag from /opt/anaconda3/envs/airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-10-01T11:12:20.221+0700] {processor.py:925} INFO - DAG(s) 'tutorial_objectstorage' retrieved from /opt/anaconda3/envs/airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py
+[2024-10-01T11:12:20.342+0700] {logging_mixin.py:190} INFO - [2024-10-01T11:12:20.342+0700] {override.py:1901} INFO - Created Permission View: can edit on DAG:tutorial_objectstorage
+[2024-10-01T11:12:20.350+0700] {logging_mixin.py:190} INFO - [2024-10-01T11:12:20.350+0700] {override.py:1901} INFO - Created Permission View: can delete on DAG:tutorial_objectstorage
+[2024-10-01T11:12:20.355+0700] {logging_mixin.py:190} INFO - [2024-10-01T11:12:20.355+0700] {override.py:1901} INFO - Created Permission View: can read on DAG:tutorial_objectstorage
+[2024-10-01T11:12:20.364+0700] {logging_mixin.py:190} INFO - [2024-10-01T11:12:20.364+0700] {override.py:1901} INFO - Created Permission View: can delete on DAG Run:tutorial_objectstorage
+[2024-10-01T11:12:20.370+0700] {logging_mixin.py:190} INFO - [2024-10-01T11:12:20.370+0700] {override.py:1901} INFO - Created Permission View: menu access on DAG Run:tutorial_objectstorage
+[2024-10-01T11:12:20.376+0700] {logging_mixin.py:190} INFO - [2024-10-01T11:12:20.376+0700] {override.py:1901} INFO - Created Permission View: can create on DAG Run:tutorial_objectstorage
+[2024-10-01T11:12:20.381+0700] {logging_mixin.py:190} INFO - [2024-10-01T11:12:20.380+0700] {override.py:1901} INFO - Created Permission View: can read on DAG Run:tutorial_objectstorage
+[2024-10-01T11:12:20.381+0700] {logging_mixin.py:190} INFO - [2024-10-01T11:12:20.381+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2024-10-01T11:12:20.424+0700] {logging_mixin.py:190} INFO - [2024-10-01T11:12:20.424+0700] {dag.py:3262} INFO - Creating ORM DAG for tutorial_objectstorage
+[2024-10-01T11:12:20.425+0700] {logging_mixin.py:190} INFO - [2024-10-01T11:12:20.425+0700] {dag.py:4180} INFO - Setting next_dagrun for tutorial_objectstorage to None, run_after=None
+[2024-10-01T11:12:20.441+0700] {processor.py:208} INFO - Processing /opt/anaconda3/envs/airflow/lib/python3.12/site-packages/airflow/example_dags/tutorial_objectstorage.py took 0.262 seconds

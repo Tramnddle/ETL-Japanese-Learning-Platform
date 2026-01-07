@@ -1,0 +1,70 @@
+{
+  "entity": "users",
+  "timestamp": "2025-06-08T23:21:10.873661",
+  "notes": [
+    "Missing columns in source_df: ['user_id', 'username', 'password', 'created_time', 'preferred_content_type', 'source_id', 'is_update', 'is_delete', 'preferred_learn_styles', 'education_lv', 'preferred_areas']"
+  ],
+  "checks": [
+    {
+      "check": "clean_success_rate_email",
+      "result": {
+        "valid_count": 1,
+        "total_checked": 1,
+        "success_rate_%": 100.0
+      }
+    },
+    {
+      "check": "clean_success_rate_preferred_content_types",
+      "result": {
+        "valid_count": 0,
+        "total_checked": 1,
+        "success_rate_%": 0.0
+      }
+    },
+    {
+      "check": "clean_success_rate_preferred_areas",
+      "result": {
+        "valid_count": 0,
+        "total_checked": 1,
+        "success_rate_%": 0.0
+      }
+    },
+    {
+      "check": "clean_success_rate_education_lv",
+      "result": {
+        "valid_count": 0,
+        "total_checked": 1,
+        "success_rate_%": 0.0
+      }
+    }
+  ],
+  "null_check.user_id": 0,
+  "null_check.username": 0,
+  "null_check.password": 0,
+  "null_check.created_time": 0,
+  "null_check.preferred_content_type": "missing",
+  "format_check.user_id.expected": "Int64",
+  "format_check.user_id.actual": "object",
+  "format_check.user_id.match": false,
+  "format_check.username.expected": "string",
+  "format_check.username.actual": "object",
+  "format_check.username.match": false,
+  "format_check.password.expected": "string",
+  "format_check.password.actual": "object",
+  "format_check.password.match": false,
+  "format_check.created_time.expected": "datetime64[ns]",
+  "format_check.created_time.actual": "object",
+  "format_check.created_time.match": false,
+  "format_check.preferred_content_type": "missing",
+  "default_values_check.source_id": 1,
+  "default_values_check.is_update": 0,
+  "default_values_check.is_delete": 0,
+  "deduplication_check.duplicate_rows": 0,
+  "array_fields_check.preferred_content_type": "missing",
+  "array_fields_check.preferred_learn_styles": "missing",
+  "array_fields_check.education_lv": 1,
+  "array_fields_check.preferred_areas": 1,
+  "volume_summary.num_rows": 1,
+  "volume_summary.num_columns": 16,
+  "volume_summary.estimated_memory_MB": 0.0
+}

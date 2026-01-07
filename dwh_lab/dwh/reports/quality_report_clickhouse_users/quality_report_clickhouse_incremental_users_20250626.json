@@ -1,0 +1,20 @@
+{
+  "entity": "users",
+  "timestamp": "2025-06-26T17:24:37.397651",
+  "compare_with_source": [],
+  "checks": [],
+  "notes": [],
+  "null_check.user_id": "missing",
+  "null_check.username": "missing",
+  "null_check.email": "missing",
+  "null_check.preferred_areas": "missing",
+  "null_check.preferred_content_types": "missing",
+  "null_check.preferred_learn_style": "missing",
+  "null_check.education_lv": "missing",
+  "deduplication_check.status": "skipped",
+  "deduplication_check.duplicate_rows": null,
+  "deduplication_check.note": "Missing columns: ['user_id', 'username', 'email', 'preferred_areas', 'preferred_content_types', 'preferred_learn_style', 'education_lv']",
+  "volume_summary.num_rows": 0,
+  "volume_summary.num_columns": 0,
+  "volume_summary.estimated_memory_MB": 0.0
+}

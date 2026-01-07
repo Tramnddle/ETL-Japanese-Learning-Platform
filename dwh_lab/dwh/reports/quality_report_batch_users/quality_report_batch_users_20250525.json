@@ -1,0 +1,93 @@
+{
+  "entity": "batch_user",
+  "timestamp": "2025-06-26T17:05:19.793180",
+  "compare_with_source": [
+    "Missing columns in source_df: ['exercise', 'problem_type', 'problem_number', 'topic_mode', 'suggested', 'review_mode', 'time_done', 'time_taken', 'time_taken_attempts', 'correct', 'count_attempts', 'hint_used', 'count_hints', 'hint_time_taken_list', 'earned_proficiency', 'points_earned']"
+  ],
+  "checks": [
+    {
+      "check": "clean_success_rate_email",
+      "result": {
+        "valid_count": null,
+        "total_checked": null,
+        "success_rate_%": null,
+        "note": "Column 'email' not found in dataset"
+      }
+    },
+    {
+      "check": "clean_success_rate_preferred_content_types",
+      "result": {
+        "valid_count": null,
+        "total_checked": null,
+        "success_rate_%": null,
+        "note": "Column 'preferred_content_types' not found in dataset"
+      }
+    },
+    {
+      "check": "clean_success_rate_preferred_learn_styles",
+      "result": {
+        "valid_count": 46364,
+        "total_checked": 46364,
+        "success_rate_%": 100.0,
+        "note": null
+      }
+    },
+    {
+      "check": "clean_success_rate_preferred_areas",
+      "result": {
+        "valid_count": 46364,
+        "total_checked": 46364,
+        "success_rate_%": 100.0,
+        "note": null
+      }
+    },
+    {
+      "check": "clean_success_rate_education_lv",
+      "result": {
+        "valid_count": 0,
+        "total_checked": 46364,
+        "success_rate_%": 0.0,
+        "note": null
+      }
+    }
+  ],
+  "notes": [],
+  "null_check.user_id": 0,
+  "null_check.username": 0,
+  "null_check.password": 0,
+  "null_check.created_time": 0,
+  "null_check.preferred_content_type": 0,
+  "format_check.user_id.expected": "Int64",
+  "format_check.user_id.actual": "int64",
+  "format_check.user_id.match": false,
+  "format_check.user_id.note": null,
+  "format_check.username.expected": "object",
+  "format_check.username.actual": "object",
+  "format_check.username.match": true,
+  "format_check.username.note": null,
+  "format_check.password.expected": "object",
+  "format_check.password.actual": "object",
+  "format_check.password.match": true,
+  "format_check.password.note": null,
+  "format_check.created_time.expected": "datetime64[ns]",
+  "format_check.created_time.actual": "datetime64[ns]",
+  "format_check.created_time.match": true,
+  "format_check.created_time.note": null,
+  "format_check.preferred_content_type.expected": "object",
+  "format_check.preferred_content_type.actual": "object",
+  "format_check.preferred_content_type.match": true,
+  "format_check.preferred_content_type.note": null,
+  "default_values_check.source_id": 0,
+  "default_values_check.is_update": 0,
+  "default_values_check.is_delete": 0,
+  "deduplication_check.status": "checked",
+  "deduplication_check.duplicate_rows": 0,
+  "deduplication_check.note": null,
+  "array_fields_check.preferred_content_type": 0,
+  "array_fields_check.preferred_learn_styles": 0,
+  "array_fields_check.education_lv": 0,
+  "array_fields_check.preferred_areas": 0,
+  "volume_summary.num_rows": 46364,
+  "volume_summary.num_columns": 15,
+  "volume_summary.estimated_memory_MB": 34.47
+}

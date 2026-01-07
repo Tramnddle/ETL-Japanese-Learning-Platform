@@ -1,0 +1,33 @@
+python preprocessing_batch_sources_browsing_history.py
+-> sua lai ngay lay du lieu source, ko phai ngay moi nhat
+-> them logic quality report, library tuong ung
+
+general_lib
+-> change timeout function, increase timeout
+-> change the function "read_azure_datalake_storage" to chunk large json file.
+-> chunk_size 25000
+
+entity name questions, options
+
+python ingest_batch_sources_full_load_ProblemLog_original.py --entity_path batch-sources/junyi/junyi_ProblemLog_original.csv
+
+python ingest_batch_sources_full_load_Exercise_table_trans.py --entity_path batch-sources/junyi/junyi_Exercise_table_trans.csv 
+batch-sources/junyi/junyi_Exercise_table_trans.csv
+--entity_path batch-sources/junyi/junyi_Exercise_table_trans/json/20250525/20250525_junyi_Exercise_table_trans.json
+							
+-> sua lai ngay lay du lieu source, ko phai ngay moi nhat
+
+python preprocessing_streaming_incremental_load.py
+
+python ingest_click_house_incremental_load.py --entity_name users  -> co kha nang ko tra ve report vi ko co record moi vao (streaming)
+
+Python ingest_click_house_full_load.py --entity_name questions 
+
+Python preprocessing_batch_sources_browsing_history.py
+Python preprocessing_batch_sources_users.py
+
+full load -> --entity_name questions (hoac options)
+incremental load -> --entity_name users hoac browsinghistory
+batch full load -> --entity_path 
+
+Python Quality_report_Preprocessing_batch_sources_users.py

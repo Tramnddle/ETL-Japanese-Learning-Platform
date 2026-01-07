@@ -1,0 +1,7 @@
+[2025-04-29T08:46:18.573+0700] {processor.py:186} INFO - Started process (PID=12229) to work on /Users/lap14793/airflow/dags/dwh_dag.py
+[2025-04-29T08:46:18.574+0700] {processor.py:914} INFO - Processing file /Users/lap14793/airflow/dags/dwh_dag.py for tasks to queue
+[2025-04-29T08:46:18.575+0700] {logging_mixin.py:190} INFO - [2025-04-29T08:46:18.575+0700] {dagbag.py:588} INFO - Filling up the DagBag from /Users/lap14793/airflow/dags/dwh_dag.py
+[2025-04-29T08:46:18.597+0700] {processor.py:925} INFO - DAG(s) 'dwh_dag' retrieved from /Users/lap14793/airflow/dags/dwh_dag.py
+[2025-04-29T08:46:18.646+0700] {logging_mixin.py:190} INFO - [2025-04-29T08:46:18.646+0700] {dag.py:3239} INFO - Sync 1 DAGs
+[2025-04-29T08:46:18.652+0700] {logging_mixin.py:190} INFO - [2025-04-29T08:46:18.652+0700] {dag.py:4180} INFO - Setting next_dagrun for dwh_dag to 2025-04-29 00:00:00+00:00, run_after=2025-04-30 00:00:00+00:00
+[2025-04-29T08:46:18.662+0700] {processor.py:208} INFO - Processing /Users/lap14793/airflow/dags/dwh_dag.py took 0.094 seconds

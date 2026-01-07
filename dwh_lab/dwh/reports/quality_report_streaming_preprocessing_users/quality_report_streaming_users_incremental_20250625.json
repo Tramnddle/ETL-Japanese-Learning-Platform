@@ -1,0 +1,92 @@
+{
+  "entity": "users",
+  "timestamp": "2025-06-25T17:15:05.745301",
+  "checks": [
+    {
+      "check": "clean_success_rate_email",
+      "result": {
+        "valid_count": null,
+        "total_checked": null,
+        "success_rate_%": null,
+        "note": "Column 'email' not found in dataset"
+      }
+    },
+    {
+      "check": "clean_success_rate_preferred_content_types",
+      "result": {
+        "valid_count": null,
+        "total_checked": null,
+        "success_rate_%": null,
+        "note": "Column 'preferred_content_types' not found in dataset"
+      }
+    },
+    {
+      "check": "clean_success_rate_preferred_learn_styles",
+      "result": {
+        "valid_count": null,
+        "total_checked": null,
+        "success_rate_%": null,
+        "note": "Column 'preferred_learn_styles' not found in dataset"
+      }
+    },
+    {
+      "check": "clean_success_rate_preferred_areas",
+      "result": {
+        "valid_count": null,
+        "total_checked": null,
+        "success_rate_%": null,
+        "note": "Column 'preferred_areas' not found in dataset"
+      }
+    },
+    {
+      "check": "clean_success_rate_education_lv",
+      "result": {
+        "valid_count": null,
+        "total_checked": null,
+        "success_rate_%": null,
+        "note": "Column 'education_lv' not found in dataset"
+      }
+    }
+  ],
+  "notes": [
+    "Missing columns in source_df: ['user_id', 'username', 'password', 'created_time', 'preferred_content_type', 'source_id', 'is_update', 'is_delete', 'preferred_learn_styles', 'education_lv', 'preferred_areas']"
+  ],
+  "null_check.user_id": "missing",
+  "null_check.username": "missing",
+  "null_check.password": "missing",
+  "null_check.created_time": "missing",
+  "null_check.preferred_content_type": "missing",
+  "format_check.user_id.expected": "Int64",
+  "format_check.user_id.actual": null,
+  "format_check.user_id.match": false,
+  "format_check.user_id.note": "Column 'user_id' not found",
+  "format_check.username.expected": "object",
+  "format_check.username.actual": null,
+  "format_check.username.match": false,
+  "format_check.username.note": "Column 'username' not found",
+  "format_check.password.expected": "object",
+  "format_check.password.actual": null,
+  "format_check.password.match": false,
+  "format_check.password.note": "Column 'password' not found",
+  "format_check.created_time.expected": "datetime64[ns]",
+  "format_check.created_time.actual": null,
+  "format_check.created_time.match": false,
+  "format_check.created_time.note": "Column 'created_time' not found",
+  "format_check.preferred_content_type.expected": "object",
+  "format_check.preferred_content_type.actual": null,
+  "format_check.preferred_content_type.match": false,
+  "format_check.preferred_content_type.note": "Column 'preferred_content_type' not found",
+  "default_values_check.source_id": "missing",
+  "default_values_check.is_update": "missing",
+  "default_values_check.is_delete": "missing",
+  "deduplication_check.status": "skipped",
+  "deduplication_check.duplicate_rows": null,
+  "deduplication_check.note": "Missing columns: ['user_id', 'username', 'password']",
+  "array_fields_check.preferred_content_type": "missing",
+  "array_fields_check.preferred_learn_styles": "missing",
+  "array_fields_check.education_lv": "missing",
+  "array_fields_check.preferred_areas": "missing",
+  "volume_summary.num_rows": 0,
+  "volume_summary.num_columns": 0,
+  "volume_summary.estimated_memory_MB": 0.0
+}
